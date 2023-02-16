@@ -29,7 +29,7 @@
                 </div>
                 <!-- login -->
                 <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                    <a class="text-gray-700 mx-3 cursor-pointer">登入</a>
+                    <a class="text-gray-700 mx-3 cursor-pointer font-medium">登入</a>
                     <button class="bg-gray-700 text-white border-gray-700 px-5 py-2 rounded-md hover:bg-gray-600"><a href="#">註冊</a></button>
                 </div>
             </div>
