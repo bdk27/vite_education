@@ -28,7 +28,6 @@
   </template>
   
 <script lang="ts" setup>
-    const thisYear = new Date().getFullYear();
     const stats = [
         { name: '所有課程', value: '500+', icon: 'fa-solid fa-book-open', bgcolor: 'bg-red-500', color: 'text-red-500', content: '多種課程隨你挑選，找到適合你的課程，探索你的熱情所在！' },
         { name: '會員人數', value: '1500+', icon: 'fa-solid fa-users', bgcolor: 'bg-green-500', color: 'text-green-500',  content: '最多人評選為最棒的教育平台，不受時間、地點限制能夠輕鬆快樂學習'  },
@@ -46,7 +45,7 @@
     .home {
         width: 100%;
         min-height: 100vh;
-        background: linear-gradient(rgba(252, 211, 77, .5), rgba(252, 211, 77, .7)), url('../assets/img/pexels-photo-256417.jpeg');
+        background: linear-gradient(rgba(252, 211, 77, .5), rgba(252, 211, 77, .5)), url('../assets/img/pexels-photo-256417.jpeg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
