@@ -7,7 +7,7 @@
                 <div class="lg:max-w-lg">
                     <h3 class="text-lg font-semibold leading-8 tracking-tight text-amber-300">#About us</h3>
                     <p class="mt-2 text-3xl font-bold tracking-tight text-gray-700 sm:text-4xl">探索世界有趣新知</p>
-                    <p class="mt-6 text-lg leading-8 text-gray-600">創造一個不受限與適才適性的環境，讓大家更輕鬆快樂地累積知識技能，推動社會持續進步。將學習視為一種生活，不斷累積追求新知，讓它成為生活中千萬個美好時刻 !</p>
+                    <p class="mt-6 text-lg leading-8 text-gray-600">創造一個不受限與適才適性的環境，讓大家更輕鬆快樂地累積知識技能，推動社會持續進步，將學習視為一種生活。透過優質的課程內容，不斷累積追求新知就像探索驚喜一樣。讓它成為生活中千萬個美好時刻，改變就此發生！</p>
                     <ul class="mt-10 max-w-xl text-base leading-7 text-gray-700 lg:max-w-none grid sm:grid-cols-2">
                         <li v-for="feature in features" :key="feature.name">
                             <font-awesome-icon :icon="feature.icon" class="inline-block text-2xl text-amber-500"/>
@@ -17,7 +17,9 @@
                 </div>
             </div>
             <!-- max-w-none sm:w-[57rem] md:-ml-4 lg:-ml-0 -->
-              <img src="../assets/img/people-working-together-online.png" alt="Product screenshot" class="w-full" />
+            <div class="image">
+              <img src="../assets/img/class-topics-and-materials.png" class="w-full" />
+            </div>    
         </div>
       </div>
     </section>
@@ -45,16 +47,9 @@
   ]
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
   .title {
-    &::after {
-      content: '';
-      display: block;
-      width: 100px;
-      height: 4px;
-      background-color: rgb(252 211 77);
-      margin: 1rem auto;
-    }
+    @extend %titleUnderline;
   }
   h3 {
       font-family: 'Poppins', sans-serif;

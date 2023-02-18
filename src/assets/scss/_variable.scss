@@ -1,0 +1,10 @@
+%titleUnderline {
+    &::after {
+        content: '';
+        display: block;
+        width: 100px;
+        height: 4px;
+        background-color: rgb(252 211 77);
+        margin: 1rem auto;
+    }
+}

@@ -23,6 +23,11 @@
                     </li>
                 </ul>
             </div>
+
+            <div class="mt-10 text-gray-700 cursor-pointer hover:text-gray-500">
+                <p class="inline-block text-xl font-medium">查看Edu.更多內容</p>
+                <font-awesome-icon icon="fa-solid fa-arrow-right" class="inline-block text-xl ml-1"/>
+            </div>
         </div>
     </div>
   </template>
@@ -41,7 +46,7 @@
     ]
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
     .home {
         width: 100%;
         min-height: 100vh;
