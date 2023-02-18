@@ -1,8 +1,8 @@
 <template>
-    <section class="py-20 bg-amber-50">
+    <section class="about py-20 bg-amber-50">
       <div class="mx-auto max-w-7xl px-6 lg:px-8">
         <h2 class="title text-center text-3xl font-bold text-gray-700">關於我們</h2>
-        <div class="mx-auto grid max-w-2xl grid-cols-1 gap-y-16 gap-x-8 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2 items-center">
+        <div class="mx-auto grid max-w-2xl grid-cols-1 gap-y-16 gap-x-8 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2 items-start">
             <div class="lg:pr-8 lg:pt-4">
                 <div class="lg:max-w-lg">
                     <h3 class="text-lg font-semibold leading-8 tracking-tight text-amber-300">#About us</h3>
@@ -18,7 +18,7 @@
             </div>
             <!-- max-w-none sm:w-[57rem] md:-ml-4 lg:-ml-0 -->
             <div class="image">
-              <img src="../assets/img/class-topics-and-materials.png" class="w-full" />
+              <img src="../assets/img/people-collaborating-or-sharing-a-message.png" class="w-full" />
             </div>    
         </div>
       </div>
@@ -48,6 +48,9 @@
 </script>
 
 <style lang="scss" scoped>
+  .about {
+    background-image: linear-gradient(-20deg, #e9defa 0%, rgba(252, 211, 77, .3) 100%);
+  }
   .title {
     @extend %titleUnderline;
   }

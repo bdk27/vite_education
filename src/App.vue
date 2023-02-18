@@ -3,7 +3,7 @@
   import EduNavbar from './components/EduNavbar.vue';
   import EduAbout from './components/EduAbout.vue';
   import EduCourse from './components/EduCourse.vue';
-
+  import EduBanner from './components/EduBanner.vue';
 </script>
 
 <template>
@@ -11,6 +11,7 @@
   <EduHome></EduHome>
   <EduAbout></EduAbout>
   <EduCourse></EduCourse>
+  <EduBanner></EduBanner>
 </template>
 
 <style lang="scss">

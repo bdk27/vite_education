@@ -25,7 +25,7 @@
             </div>
 
             <div class="mt-10 text-gray-700 cursor-pointer hover:text-gray-500">
-                <p class="inline-block text-xl font-medium">查看Edu.更多內容</p>
+                <p class="moreInfo inline-block text-xl font-medium">查看更多內容</p>
                 <font-awesome-icon icon="fa-solid fa-arrow-right" class="inline-block text-xl ml-1"/>
             </div>
         </div>
@@ -50,7 +50,7 @@
     .home {
         width: 100%;
         min-height: 100vh;
-        background: linear-gradient(rgba(252, 211, 77, .5), rgba(252, 211, 77, .5)), url('../assets/img/pexels-photo-256417.jpeg');
+        background: linear-gradient(rgba(252, 211, 77, .3), rgb(252, 211, 77, .6)), url('../assets/img/pexels-photo-256417.jpeg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -72,6 +72,12 @@
         }
         .icons {
             @include font(4);
+        }
+        .moreInfo {
+            background-size: 100% 80%;
+            background-repeat: no-repeat;
+            background-image: linear-gradient(to top, rgba(252, 211, 77) 50%, rgba(0,0,0,0) 50.1%);
+            background-position: left 0 bottom 0;
         }
     }
 </style>
