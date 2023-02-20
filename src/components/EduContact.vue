@@ -1,6 +1,6 @@
 <template>
-    <div class="contact">
-        <div class="mx-auto grid max-w-2xl grid-cols-1 items-center gap-y-16 gap-x-8 py-24 px-4 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
+    <div class="contact pb-32">
+        <div class="mx-auto grid max-w-2xl grid-cols-1 items-center gap-y-16 gap-x-8  lg:grid-cols-2 lg:px-8 px-4 sm:px-6 sm:pt-32 lg:max-w-7xl">
             <img src="../assets/img/people-working-together-online.png" class="rounded-lg" />
 
             <div>
@@ -14,7 +14,7 @@
             </div>
         </div>
 
-        <div class="mx-auto grid grid-cols-1 gap-x-3 gap-y-3 grid-cols-3 lg:grid-cols-6 max-w-2xl lg:max-w-7xl">
+        <div class="mx-auto mt-8 grid grid-cols-1 gap-x-3 gap-y-3 grid-cols-3 lg:grid-cols-6 max-w-2xl lg:max-w-7xl items-center">
             <img src="../assets/img/cta1.png" class="px-5">
             <img src="../assets/img/cta2.png" class="px-5">
             <img src="../assets/img/cta3.png" class="px-5">

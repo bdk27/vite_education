@@ -6,6 +6,7 @@
   import EduBanner from './components/EduBanner.vue';
   import EduComment from './components/EduComment.vue';
   import EduContact from './components/EduContact.vue';
+  import EduFooter from './components/EduFooter.vue';
 </script>
 
 <template>
@@ -16,6 +17,7 @@
   <EduBanner></EduBanner>
   <EduComment></EduComment>
   <EduContact></EduContact>
+  <EduFooter></EduFooter>
 </template>
 
 <style lang="scss">
