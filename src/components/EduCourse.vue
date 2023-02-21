@@ -35,6 +35,9 @@
     import course1 from '../assets/img/course1.jpg';
     import course2 from '../assets/img/course2.jpg';
     import course3 from '../assets/img/course3.jpg';
+    import course4 from '../assets/img/course4.jpg';
+    import course5 from '../assets/img/course5.jpg';
+    import course6 from '../assets/img/course6.jpg';
     const products = [
         {
             id: 1,
@@ -63,8 +66,38 @@
             imageSrc: course3,
             evaluate: '516',
             hour: '22',
-            describe: '學會 Node.js、Express 網站後端開發、以及 MongoDB 資料庫的基礎技能。最終具備從無到有，開發關鍵網站系統的能力。',
+            describe: '學會 Node.js、Express 網站後端開發、以及 MongoDB 資料庫的基礎技能。最終具備從無到有，開發關鍵網站系統的能力',
             price: '2500',
+        },
+        {
+            id: 3,
+            name: '網頁設計進階',
+            href: '#',
+            imageSrc: course4,
+            evaluate: '450',
+            hour: '21',
+            describe: '這堂線上課程企劃是給完全無基礎的朋友，一起領略設計的美好，讓製作網站這件事情，成為大家下班後或在週末時候的小興趣',
+            price: '2200',
+        },
+        {
+            id: 3,
+            name: '前端工程進階',
+            href: '#',
+            imageSrc: course5,
+            evaluate: '599',
+            hour: '25',
+            describe: '我們推出了 Vue.js 課程，從基礎的 html、css、js 網頁開發，進階到前端架構，搭配 css 的樣式庫能夠讓你在開發過程中輕鬆方便許多',
+            price: '2600',
+        },
+        {
+            id: 3,
+            name: '後端工程進階',
+            href: '#',
+            imageSrc: course6,
+            evaluate: '620',
+            hour: '19',
+            describe: '學會 Node.js、Express 網站後端開發、以及 MongoDB 資料庫的基礎技能。最終具備從無到有，開發關鍵網站系統的能力',
+            price: '2700',
         },
     ]
 </script>
